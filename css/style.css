@@ -1,7 +1,7 @@
 html {
   touch-action: manipulation;
-  background-color:black;
-  color:white; 
+  background-color:white;
+  color:black; 
 }
 
 div{
@@ -12,7 +12,11 @@ text-align:center;
 
 h1{
   font-size: 4vw;
-  margin:auto
+  color:lemonchiffon;
+  text-shadow:1.5px 1.5px 0 royalblue, -1.5px -1.5px 0 royalblue,
+              -1.5px 1.5px 0 royalblue, 1.5px -1.5px 0 royalblue,
+              0px 1.5px 0 royalblue,  0 -1.5px 0 royalblue,
+              -1.5px 0 0 royalblue, 1.5px 0 0 royalblue;
 }
 
 h2{
@@ -23,12 +27,12 @@ font-size:3.5vw
 
 .buttons{
   font-size: 3vw;
-  color:white;
-  background:black;
+  color:black;
+  background:white;
   width:18vw;
   height:18vw;
   outline:none;
-  border: solid 1px #ffa000;
+  border: solid 1px cornflowerblue;
   border-radius:2vw;
 }
 
@@ -49,16 +53,16 @@ padding:0;
 #create{
   font-size: 3vw;
   color:black;
-  background:orange;
-  border: solid 1px white;
+  background:lemonchiffon;
+  border: solid 2px cornflowerblue;
   outline:none;
   width:36vw;
   height:9vw;
 }
 
 #create:active{
-  background:#c86400;
-  border: solid 1px white;
+  background:gold;
+  border: solid 2px cornflowerblue;
   outline:none;
 }
 
@@ -72,16 +76,16 @@ padding:0;
 .saveareabuttons{
   font-size: 3vw;
   color:black;
-  background:orange;
-  border: solid 1px white;
+  background:lemonchiffon;
+  border: solid 1px cornflowerblue;
   outline:none;
   width:18vw;
   height:18vw;
 }
 
 .saveareabuttons:active{
-  background:#c86400;
-  border: solid 1px white;
+  background:gold;
+  border: solid 1px cornflowerblue;
   outline:none;
 }
 
@@ -93,10 +97,10 @@ padding:0;
 
 #save_weapondata{
   font-size:16px;
-  background:#fffae9;
+  background:lightyellow;
   resize: none;
   padding:0.8vw;
-  border: solid 1px #ff7100;
+  border: solid 1px cornflowerblue;
   outline:none;
   font-family:メイリオ;
   width:34vw;
@@ -109,8 +113,8 @@ padding:0;
 #updatebutton{
   font-size:2.5vw;
   color:#654f35;
-  background:#fffae9;
-  border: solid 1px #654f35;/*線色*/
+  background:lemonchiffon;
+  border: solid 1px cornflowerblue;/*線色*/
   outline:none;
   width:36vw;
   height:9vw;
@@ -119,8 +123,8 @@ padding:0;
 #QandAbutton{
   font-size:2.5vw;
   color:#654f35;
-  background:#fffae9;
-  border: solid 1px #654f35;/*線色*/
+  background:lemonchiffon;
+  border: solid 1px cornflowerblue;/*線色*/
   outline:none;
   width:36vw;
   height:9vw;
@@ -129,8 +133,8 @@ padding:0;
 #closebutton{
   font-size:2.5vw;
   color:#654f35;
-  background:#fffae9;
-  border: solid 1px #654f35;/*線色*/
+  background:lemonchiffon;
+  border: solid 1px cornflowerblue;/*線色*/
   outline:none;
   width:18vw;
   height:9vw;
