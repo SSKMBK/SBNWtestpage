@@ -49,16 +49,16 @@ padding:0;
 #create{
   font-size: 3vw;
   color:black;
-  background:#fffae9;
-  border: solid 1px #ffa000;
+  background:orange;
+  border: solid 1px white;
   outline:none;
   width:36vw;
   height:9vw;
 }
 
 #create:active{
-  background:#ffdab1;
-  border: solid 1px #ff8c00;
+  background:#c86400;
+  border: solid 1px white;
   outline:none;
 }
 
@@ -72,16 +72,16 @@ padding:0;
 .saveareabuttons{
   font-size: 3vw;
   color:black;
-  background:#fffae9;
-  border: solid 1px #ff7100;
+  background:orange;
+  border: solid 1px white;
   outline:none;
   width:18vw;
   height:18vw;
 }
 
 .saveareabuttons:active{
-  background:#ffdab1;
-  border: solid 1px #ff8c00;
+  background:#c86400;
+  border: solid 1px white;
   outline:none;
 }
 
