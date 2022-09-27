@@ -1,5 +1,7 @@
 html {
   touch-action: manipulation;
+  background-color:black;
+  color:white; 
 }
 
 div{
