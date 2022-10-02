@@ -25,6 +25,23 @@ font-weight:normal;
 font-size:3.5vw
 }
 
+h3{
+  margin:20px 0px 0px 0px;
+}
+
+#link{
+  background:azure;
+  border: solid 2px cornflowerblue;
+  outline:none;
+  width:9vw;
+  height:4.5vw;
+}
+
+a{
+  text-decoration: none;
+  color:black;
+}
+
 .buttons{
   font-size: 3vw;
   color:black;
@@ -38,7 +55,7 @@ font-size:3.5vw
 
 table {
 /*background:#fffae9;*/
-displat:table;
+display:table;
 border-collapse:separate;
 border-spacing:1px;
 margin:auto
