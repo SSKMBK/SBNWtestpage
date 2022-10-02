@@ -10,14 +10,10 @@ max-width:100%;
 text-align:center;
 }
 
-h1{
-  font-family:"メイリオ","ヒラギノ角ゴシック";
-  font-size: 4vw;
-  color:lemonchiffon;
-  text-shadow:1.5px 1.5px 0 royalblue, -1.5px -1.5px 0 royalblue,
-              -1.5px 1.5px 0 royalblue, 1.5px -1.5px 0 royalblue,
-              0px 1.5px 0 royalblue,  0 -1.5px 0 royalblue,
-              -1.5px 0 0 royalblue, 1.5px 0 0 royalblue;
+h1{}
+
+img{
+  width:60VW;
 }
 
 h2{
@@ -173,8 +169,12 @@ padding:0;
 
 @media(min-width:500px){ /*最大サイズの指定(PC対応)*/
 
-  h1,h2{
+  h2{
     font-size:20px;
+  }
+
+  img{
+    width:300px;
   }
 
   .buttons{
