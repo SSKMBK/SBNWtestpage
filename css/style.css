@@ -11,7 +11,7 @@ text-align:center;
 }
 
 h1{
-  font-size: 4vw;
+  font-size:20px;
   color:lemonchiffon;
   text-shadow:1.5px 1.5px 0 royalblue, -1.5px -1.5px 0 royalblue,
               -1.5px 1.5px 0 royalblue, 1.5px -1.5px 0 royalblue,
@@ -20,9 +20,9 @@ h1{
 }
 
 h2{
-margin:1;
-font-weight:normal;
-font-size:3.5vw
+  font-size:20px;
+  margin:1;
+  font-weight:normal;
 }
 
 h3{
@@ -33,8 +33,10 @@ h3{
   background:azure;
   border: solid 2px cornflowerblue;
   outline:none;
-  width:9vw;
-  height:4.5vw;
+  font-size:13px;
+  width:70px;
+  height:30px;
+  border-radius:10px
 }
 
 a{
@@ -46,11 +48,12 @@ a{
   font-size: 3vw;
   color:black;
   background:white;
-  width:18vw;
-  height:18vw;
   outline:none;
   border: solid 1px cornflowerblue;
-  border-radius:2vw;
+  font-size:15px;
+  width:90px;
+  height:90px;
+  border-radius:10px
 }
 
 table {
@@ -68,13 +71,13 @@ padding:0;
 }
 
 #create{
-  font-size: 3vw;
   color:black;
   background:lemonchiffon;
   border: solid 2px cornflowerblue;
   outline:none;
-  width:36vw;
-  height:9vw;
+  font-size:15px;
+  width:180px;
+  height:45px;
 }
 
 #create:active{
@@ -91,13 +94,13 @@ padding:0;
 }
 
 .saveareabuttons{
-  font-size: 3vw;
   color:black;
   background:lemonchiffon;
   border: solid 1px cornflowerblue;
   outline:none;
-  width:18vw;
-  height:18vw;
+  font-size:15px;
+  width:90px;
+  height:90px;
 }
 
 .saveareabuttons:active{
@@ -112,120 +115,48 @@ padding:0;
 #restoration{
 }
 
+#delete{
+}
+
 #save_weapondata{
   font-size:16px;
   background:lightyellow;
   resize: none;
-  padding:0.8vw;
   border: solid 1px cornflowerblue;
   outline:none;
   font-family:メイリオ;
-  width:34vw;
-  height:16vw;
-}
-
-#delete{
-}
-
-#updatebutton{
-  font-size:2.5vw;
-  color:#654f35;
-  background:lemonchiffon;
-  border: solid 1px cornflowerblue;/*線色*/
-  outline:none;
-  width:36vw;
-  height:9vw;
-}
-
-#QandAbutton{
-  font-size:2.5vw;
-  color:#654f35;
-  background:lemonchiffon;
-  border: solid 1px cornflowerblue;/*線色*/
-  outline:none;
-  width:36vw;
-  height:9vw;
-}
-
-#closebutton{
-  font-size:2.5vw;
-  color:#654f35;
-  background:lemonchiffon;
-  border: solid 1px cornflowerblue;/*線色*/
-  outline:none;
-  width:18vw;
-  height:9vw;
-}
-
-#QandA,#update{
-  resize: none;
-  font-family: メイリオ;
-  font-size: 16px;
-  padding: 0.8vw; /*余白*/
-  width:88vw;
-  height:36vw;
-  margin:auto;
-}
-
-#update{
-  display:none;/*blockで上書き*/
-}
-
-#QandA{
-  display:none;/*blockで上書き*/
-}
-
-@media(min-width:500px){
-
-h1,h2{
-font-size:20px;
-}
-
-.buttons{
-  font-size:15px;
-  width:90px;
-  height:90px;
-  border-radius:10px
-}
-
-#create{
-font-size:15px;
-}
-
-#create{
- width:180px;
- height:45px;
-}
-
-.saveareabuttons{
- font-size:15px;
- width:90px;
- height:90px;
-}
-
-#save_weapondata{
- padding:4px;
- width:170px;
- height:80px;
+  padding:4px;
+  width:170px;
+  height:80px;
 }
 
 #updatebutton,#QandAbutton{
-font-size:12.5px;
-width:180px;
-height:45px;
+  font-size:12.5px;
+  width:180px;
+  height:45px;
+  color:#654f35;
+  background:lemonchiffon;
+  border: solid 1px cornflowerblue;/*線色*/
+  outline:none;
 }
 
 #closebutton{
-font-size:12.5px;
-width:90px;
-height:45px;
+  color:#654f35;
+  background:lemonchiffon;
+  border: solid 1px cornflowerblue;/*線色*/
+  outline:none;
+  font-size:12.5px;
+  width:90px;
+  height:45px;
 }
 
-#update,#QandA{
+#QandA,#update{
   padding: 4px;
   width:446px;
   height:186px;
-}
-
-
+  resize: none;
+  font-family: メイリオ;
+  font-size: 16px;
+  margin:auto;
+  display:none;/*blockで上書き*/
 }
