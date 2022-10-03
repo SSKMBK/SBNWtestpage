@@ -12,6 +12,8 @@ text-align:center;
 
 h1{
   margin:2vw;
+  color:cornflowerblue;
+  font-size:4vw;
 }
 
 img{
@@ -173,6 +175,7 @@ padding:0;
 
   h1{
     margin:10px;
+    font-size:20px;
   }
 
   h2{
